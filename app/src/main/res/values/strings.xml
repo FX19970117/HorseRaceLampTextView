@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextView跑马灯</string>
+    <string name="hello_world">TextView跑马灯 TextView跑马灯 TextView跑马灯 TextView跑马灯</string>
+</resources>
