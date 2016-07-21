@@ -33,6 +33,7 @@
         android:focusableInTouchMode="true"/>
 
     <!--  自定义均获得焦点-->
+    <!-- 注意属性的不同-->
     <com.textview.MyTextView
         android:id="@+id/te3"
         android:layout_width="wrap_content"
@@ -43,7 +44,7 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:focusable="true"
-        android:focusableInTouchMode="true"/>
+        android:marqueeRepeatLimit="marquee_forever"/>
 
     <com.textview.MyTextView
         android:id="@+id/te4"
@@ -55,5 +56,5 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:focusable="true"
-        android:focusableInTouchMode="true"/>
+        android:marqueeRepeatLimit="marquee_forever"/>
 </RelativeLayout>
